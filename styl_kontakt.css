@@ -1,0 +1,181 @@
+body {
+  display: grid;
+  grid-template-columns: 13% 74% 13%;
+  grid-template-rows: 15% auto 15%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+
+header {
+  background: #180A0A;
+  display: flex;
+  grid-column: 1 / span 3;
+  align-items: center;
+}
+.logo{
+  height: 130px;
+  width: auto;
+}
+.logo2{
+  height: 100px;
+  width: auto;
+}
+
+
+main {
+  background: #efe9ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: block; /* żeby nie robiły się kolumny */
+
+}
+
+aside {
+  background: #F582A7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  background: #180A0A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8vh;
+  color: #F10086;
+  font-family: "Bebas Neue", sans-serif;
+  grid-column: 1 / span 3;
+}
+
+
+nav a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #F10086; /* Kolor przycisku */
+  color: #efe9ec; /* Kolor tekstu */
+  text-decoration: none; /* Usunięcie podkreślenia */
+  border-radius: 5px; /* Zaokrąglone rogi */
+  transition: background-color 0.3s ease; /* Animacja zmiany koloru przy hover */
+}
+
+nav a:hover {
+  background-color: #F582A7; /* Zmiana koloru po najechaniu */
+}
+
+nav{
+margin: 50px;
+display: flex;
+}
+
+.guzik{
+height: auto;
+display: flex; /* Użycie Flexbox */
+  align-items: center;
+}
+
+.obrazek_guzik {
+  margin-right: 5px; /* Odstęp między ikoną a tekstem */
+  height: 20px;
+}
+
+
+
+
+.headergrid{
+display: flex;
+justify-content: center;  /* Center horizontally */
+align-items: center;
+width: 100%;
+}
+
+.guzikigrid{
+display: flex;
+justify-content: center;   /* Center buttons/items inside guzikigrid */
+align-items: center;
+}
+
+h1{
+  text-align: center;
+  color: #F10086;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 130px;
+  
+}
+
+.formularz {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  border: 3px solid #180A0A;
+  border-radius: 2%;
+  color: #180A0A;
+  font-family: Arial, Helvetica, sans-serif, cursive;
+  font-weight: bold;
+  font-size: 150%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  margin-bottom: 10%;
+  gap: 1px;
+}
+
+
+
+.formularz label, .formularz input, .formularz button, .formularz textarea {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.formularz label{
+  color:#F10086;
+  
+}
+
+
+.checkbox-container {
+  display: flex;
+  gap: 10px; /* Odstęp między checkboxami i etykietami */
+  font-family: Arial, Helvetica, sans-serif, cursive;
+  color: #180A0A;
+  font-size: 20px;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center; /* Wycentrowanie tekstu z checkboxem */
+  gap: 5px; /* Odstęp między checkboxem a tekstem */
+}
+
+.checkbox-item label {
+  line-height: 1; /* Usunięcie dodatkowego odstępu między wierszami */
+  padding-top: 20px; /* Delikatne przesunięcie tekstu w dół */
+}
+
+
+.checkbox-item {
+  display: flex;
+  align-items: center; /* Wycentrowanie tekstu z checkboxem */
+  gap: 5px; /* Odstęp między checkboxem a tekstem */
+}
+
+video{
+  align-items: center;
+}
+
+.clock {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 130px;
+  color: #F10086;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+}
