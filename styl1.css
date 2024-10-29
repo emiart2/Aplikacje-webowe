@@ -1,0 +1,179 @@
+body {
+    display: grid;
+    grid-template-columns: 13% 74% 13%;
+    grid-template-rows: 15% auto 15%;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  
+  header {
+    background: #180A0A;
+    display: flex;
+    grid-column: 1 / span 3;
+    align-items: center;
+  }
+  .logo{
+    height: 130px;
+    width: auto;
+  }
+  .logo2{
+    height: 100px;
+    width: auto;
+  }
+
+  main {
+    background: #efe9ec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: block; /* żeby nie robiły się kolumny */
+
+  }
+
+  aside {
+    background: #F582A7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer {
+    background: #180A0A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    grid-column: 1 / span 3;
+    color: #F10086;
+    font-family: "Bebas Neue", sans-serif;
+  }
+
+
+  nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #F10086; /* Kolor przycisku */
+    color: #efe9ec; /* Kolor tekstu */
+    text-decoration: none; /* Usunięcie podkreślenia */
+    border-radius: 5px; /* Zaokrąglone rogi */
+    transition: background-color 0.3s ease; /* Animacja zmiany koloru przy hover */
+}
+
+nav a:hover {
+    background-color: #F582A7; /* Zmiana koloru po najechaniu */
+}
+
+nav{
+  margin: 50px;
+  display: flex;
+}
+
+.guzik{
+  height: auto;
+  display: flex; /* Użycie Flexbox */
+    align-items: center;
+}
+
+.obrazek_guzik {
+    margin-right: 5px; /* Odstęp między ikoną a tekstem */
+    height: 20px;
+}
+
+
+
+
+.headergrid{
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;
+  width: 100%;
+}
+
+.guzikigrid{
+  display: flex;
+  justify-content: center;   /* Center buttons/items inside guzikigrid */
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+  color: #F10086;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 130px;
+  
+}
+
+h2{
+  color: #180A0A;
+  font-family: Arial, Helvetica, sans-serif, cursive;
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+
+}
+
+h3{
+  color: #F10086;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+  padding-top: 4%;
+
+}
+
+p{
+  font-family:  Arial , monospace;
+  color: #180A0A;
+  font-weight: bold;
+  text-align: justify;
+  line-height: 1.5;
+  margin: 3%;
+  font-size: 115%;
+}
+
+.tekst{
+  display: flex;
+  padding-top: 0px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  flex-direction: column;
+  
+}
+
+.kartki{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.kartka1{
+  margin: 10px;
+  background-color: #efe9ec;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #180A0A;
+  padding: 3%;
+
+}
+
+.kartka2{
+  margin: 10px;
+  background-color: #efe9ec;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #180A0A;
+  padding: 3%;
+}
+
+li{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #180A0A;
+  font-weight: bold;
+  margin: 4%;
+}
+
