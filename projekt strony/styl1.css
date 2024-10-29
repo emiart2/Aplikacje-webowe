@@ -162,12 +162,12 @@ p{
 }
 
 .kartka2{
-  background-color: #efe9ec;
   margin: 10px;
+  background-color: #efe9ec;
   border-radius: 10px;
   border-style: solid;
   border-color: #180A0A;
-  padding: 4%;
+  padding: 3%;
 }
 
 li{
